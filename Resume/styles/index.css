@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    height: 100%;
+    background-color: #f8fafb;
+}
+
+.HeaderProfile {
+    display: flex;
+}
+
+.header {
+    width: 25%;
+    height: 1000px;
+    padding: 25px 35px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.header_logo {
+    width: 200px;
+}
+
+.header_nav {
+    display: flex;
+    text-align: center;
+}
+
+.header_ul {
+    margin: auto;
+}
+
+.header_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.header_li {
+    color: #808080;
+    font-size: 18px;
+}
+
+.logo_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.header_logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo_text {
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header_icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.profile {
+    width: 50%;
+    width: 100%;
+}
+
+.profile_block {
+    display: flex;
+    padding: 35px;
+}
+
+.profile_text {
+    margin-left: 15px;
+    line-height: 20px;
+}
+
+.profile_img {
+    border-radius: 460px;
+    width: 170px;
+    height: 170px;
+}
+
+.profile_title {
+    font-size: 18px;
+    margin: 35px 0 5px;
+}
+
+.profile_icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.profile_local {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #808080;
+}
+
+.profile_info {
+    color: #808080;
+}
+
+.profile_icon_img {
+    width: 50px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.profile_icons {
+    display: flex;
+    padding: 35px;
+}
+
+.icons_text_block {
+    display: grid;
+    align-items: center;
+}
+
+.icons_text {
+    color: #9fa8ba;
+}
+
+.icons_block {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+
+.cup {
+    margin-top: 35px;
+}
+
+.сharacter {
+    margin-top: 20px;
+    padding: 35px;
+}
+
+.character_text span {
+    font-size: 18px;
+    padding: 0 10px 10px;
+    cursor: pointer;
+}
+
+.rd {
+    border-bottom: 1px solid blue;
+}
+
+.none {
+    display: none;
+}
+
+.Social {
+    margin: 10px 60px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 40px;
+}
+
+.social_img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.post_title {
+    display: flex;
+    align-items: center;
+}
+
+.post_text {
+    display: grid;
+    flex-wrap: wrap;
+}
+
+.post_bold_text {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.post_norm_text {
+    font-size: 14px;
+    color: #9fa8ba;
+}
+
+.post_info {
+    display: block;
+    line-height: 23px;
+    margin: 10px 50px 0;
+    color: #5d5e61;
+}
+
+.post {
+    margin-bottom: 55px;
+}
+
+.post_img_block {
+    display: flex;
+    margin: 10px 50px 10px;
+}
+
+.post_img {
+    width: 150px;
+    height: 140px;
+    margin-right: 10px;
+}
+
+.post_link {
+    margin: 15px 50px 0;
+}
+
+.skill_blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill_block {
+    width: 120px;
+    height: 70px;
+    margin: 20px 20px 60px 0;
+    text-align: center;
+}
+
+.skill_img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.skill_name {
+    font-size: 16px;
+    font-weight: 600;
+}
